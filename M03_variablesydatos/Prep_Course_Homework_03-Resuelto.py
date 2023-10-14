@@ -33,7 +33,7 @@ type(a)
 # In[2]:
 
 
-mi_nombre = 'solid snake'
+mi_nombre = 'juan carlos perez'
 
 
 # 5) Crear una variable que contenga un número complejo
