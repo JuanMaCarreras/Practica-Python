@@ -7,7 +7,14 @@
 
 # In[4]:
 
+var = 23
 
+if(var > 0 ):
+    print(var, ' Es mayor a 0')
+elif (var < 0 ):
+    print(var, ' Es menor a 0')
+else:
+   print(var, ' Es igual a 0')
 
 
 
@@ -15,14 +22,24 @@
 
 # In[5]:
 
+var1 = 5
+var2 = False
 
-
+if(type(var1) == type(var2)):
+    print('Ambos valores son', type(var1))
+else:
+    print('Los valores son de diferente Tipo')
 
 
 # 3) Para los valores enteros del 1 al 20, imprimir por pantalla si es par o impar
 
 # In[7]:
 
+for i in range(1, 21):
+    if(i % 2 == 0):
+        print(i ,'es par')
+    else:
+        print(i,'es impar')
 
 
 
@@ -31,6 +48,8 @@
 
 # In[9]:
 
+for i in range(0,6):
+    print(i, 'Elevado a potecia de 3 es igual a ', i**3)
 
 
 
@@ -39,6 +58,10 @@
 
 # In[10]:
 
+var = 5
+
+for i in range(0, var):
+    print(i)
 
 
 
