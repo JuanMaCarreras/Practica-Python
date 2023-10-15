@@ -231,8 +231,16 @@ print(var)
 
 # In[23]:
 
+var1 = 2
+var2 = '2'
+            #No esta permitido porque vae1 es un "Numero" y var2 es un "String"
+var1 + var2
 
+#-----------------------------------------------------------------------------
 
+var1 + int(var2)
+
+str(var1) + var2
 
 
 
@@ -240,5 +248,17 @@ print(var)
 
 # In[30]:
 
+var1 = 'Hola '
+
+var2 = 5
 
 
+print(var1 * var2)
+
+print(var1 + 'Se repitio ' + str(var2))
+
+
+
+
+
+# %%
