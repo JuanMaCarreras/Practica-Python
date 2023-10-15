@@ -46,7 +46,6 @@ for i in range(1, 21):
 
 # In[9]:
 
-
 for i in range(0, 6):
     print('Valor:', str(i), ' Elevado a la 3ra potencia:', str(i**3))
 
