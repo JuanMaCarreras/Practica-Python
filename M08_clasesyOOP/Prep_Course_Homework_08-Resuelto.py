@@ -7,7 +7,6 @@
 # Color<br>
 # Si es moto, auto, camioneta ó camión<br>
 # Cilindrada del motor
-
 # In[1]:
 
 
