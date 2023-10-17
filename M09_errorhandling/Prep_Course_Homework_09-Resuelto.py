@@ -4,7 +4,6 @@
 # ## Manejo de errores
 
 # 1) Con la clase creada en el módulo 8, tener en cuenta diferentes casos en que el código pudiera arrojar error. Por ejemplo, en la creación del objeto recibimos una lista de números enteros pero ¿qué pasa si se envía otro tipo de dato?
-
 # In[1]:
 
 
