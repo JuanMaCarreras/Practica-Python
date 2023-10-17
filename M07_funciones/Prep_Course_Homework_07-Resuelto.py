@@ -18,7 +18,6 @@ def verifica_primo(nro):
 
 
 # 2) Utilizando la función del punto 1, realizar otra función que reciba de parámetro una lista de números y devuelva sólo aquellos que son primos en otra lista
-
 # In[25]:
 
 
