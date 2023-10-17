@@ -7,7 +7,6 @@
 
 # In[1]:
 
-
 lista = []
 n = -15
 while (n < 0):
