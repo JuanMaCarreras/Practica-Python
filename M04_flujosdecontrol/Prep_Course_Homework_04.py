@@ -70,6 +70,21 @@ for i in range(0, var):
 
 # In[33]:
 
+var = 3
+
+if (type(var) == int):
+    if (var > 0):
+        factorial = var
+        while (var > 2):
+            var = var - 1
+            factorial = factorial * var
+        print('El factorial es', factorial)
+    else:
+        print('La variable no es mayor a cero')
+else:
+    print('La variable no es un entero')
+
+
 
 
 
