@@ -93,7 +93,13 @@ else:
 
 # In[38]:
 
+var =  3
 
+while(var < 5):
+    var += 1
+    for i in range(0,var):
+        print('while', var)
+        print('for', var)
 
 
 
@@ -101,6 +107,13 @@ else:
 
 # In[3]:
 
+var = 5
+
+for i in range(0, var):
+    while(var < 5):
+        var -= 1
+        print('for', var)
+        print('while', var)
 
 
 
@@ -108,6 +121,10 @@ else:
 # 9) Imprimir los números primos existentes entre 0 y 30
 
 # In[54]:
+
+for i in range(1,31):
+    if( i / i == 0):
+        print(str(i))
 
 
 
