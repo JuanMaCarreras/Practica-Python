@@ -122,7 +122,6 @@ for i in range(0, var):
 
 # In[54]:
 
-
 for i in range(1,31):
     if( i % i == 0):
         print(str(i))
