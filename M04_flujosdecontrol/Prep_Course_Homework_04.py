@@ -121,10 +121,13 @@ for i in range(0, var):
 # 9) Imprimir los números primos existentes entre 0 y 30
 
 # In[54]:
+        
+num = 0
+primo = True 
 
-for i in range(1,31):
-    if( i % i == 0):
-        print(str(i))
+while( num < 30):
+    for div in range(2, 30):
+        print(div)
 
 
 
