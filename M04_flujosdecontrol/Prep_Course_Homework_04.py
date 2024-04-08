@@ -122,12 +122,18 @@ for i in range(0, var):
 
 # In[54]:
         
-num = 0
-primo = True 
 
-while( num < 30):
-    for div in range(2, 30):
-        print(div)
+n = 0
+primo = True
+while (n < 30):
+    for div in range(2, n):
+        if (n % div == 0):
+            primo = False
+    if (primo):
+        print(n)
+    else:
+        primo = True
+    n += 1
 
 
 
