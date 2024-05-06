@@ -177,6 +177,20 @@ while (n < 30):
 
 
 
+start = 99
+
+while(start <= 300):
+    start += 1
+
+    if(start % 12 == 0):
+        continue
+    print(start)
+
+
+
+
+
+
 
 # 13) Utilizar la función **input()** que permite hacer ingresos por teclado, para encontrar números primos y dar la opción al usario de buscar el siguiente
 
