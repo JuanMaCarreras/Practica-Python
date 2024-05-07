@@ -107,7 +107,7 @@ while(var < 5):
 
 # In[3]:
 
-var = 5
+Var = 5
 
 for i in range(0, var):
     while(var < 5):
@@ -138,7 +138,7 @@ while (n < 30):
 
 
 
-# 10) ¿Se puede mejorar el proceso del punto 9? Utilizar las sentencias break y/ó continue para tal fin
+#10) ¿Se puede mejorar el proceso del punto 9? Utilizar las sentencias break y/ó continue para tal fin
 
 # In[55]:
 
@@ -173,9 +173,6 @@ while (n < 30):
 # 12) Aplicando continue, armar un ciclo while que solo imprima los valores divisibles por 12, dentro del rango de números de 100 a 300
 
 # In[62]:
-
-
-
 
 start = 99
 
